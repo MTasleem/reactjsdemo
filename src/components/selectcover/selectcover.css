@@ -1,0 +1,55 @@
+/*
+ * selectcover css File
+*/
+
+.selectcover {
+  /* propertys here */
+}
+.bg-color {
+  background-color: #cbcbcb;
+  position: relative;
+}
+div.ul-blocks {
+  /* display: list-item; */
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+div.ul-blocks span {
+  list-style-image: url("../../images/motor/tick.PNG");
+  position: absolute;
+  left: -35px;
+}
+.padd-60 {
+  padding: 60px;
+}
+
+.ul-blocks div {
+  margin: 20px 0;
+}
+
+.background-shadow {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 0px #cacaca;
+  width: 48%;
+  display: inline-block;
+}
+.background-shadow:first-child {
+  margin-right: 20px;
+}
+.getQuotes button {
+  width: 80%;
+  border-radius: 39px;
+  height: 40px;
+  line-height: 10px;
+  font-weight: 600;
+}
+
+.getQuotes {
+    position: absolute;
+    width: 30%;
+    bottom: 35px;
+}

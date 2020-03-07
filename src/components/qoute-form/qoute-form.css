@@ -1,0 +1,369 @@
+@media only screen and (max-width: 1024px) {
+  /** select box **/
+  .dropdown {
+    margin-left: 0px !important;
+  }
+  /** Date Picker **/
+  .datepick {
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    max-width: 50% !important;
+  }
+  .inputpick {
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+    max-width: 50% !important;
+    min-width: 20% !important;
+  }
+  .col2 {
+    margin-left: 10px !important;
+  }
+
+  .quoteButton {
+    width: 100% !important;
+  }
+  .travelAges {
+    margin-top: 0px !important;
+  }
+
+  /** input tag **/
+
+  .textInput {
+    max-width: 80% !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.form {
+  width: 100% !important;
+  position: relative;
+}
+.quoteButton {
+  background-color: rgba(177, 6, 30, 1);
+  border: none;
+  height: 54px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  color: #ffffff;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: -10px;
+}
+.dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  /* background-image: url("../../assets/images/01-home/u127.svg"); */
+  background-color: white;
+  width: 100%;
+  height: 65px;
+  border-radius: 5px;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 15px;
+  align-content: center;
+  text-align: bottom;
+  padding-top: 15px;
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: center;
+}
+.selectlabel {
+  vertical-align: top;
+  float: left;
+  padding-left: 10px;
+  position: relative;
+  bottom: -26px;
+  z-index: 99;
+
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #717171;
+}
+
+/** MUlti Select **/
+
+.multiselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+
+  background-color: white;
+  width: 100%;
+  height: 65px;
+  border-radius: 5px;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 15px;
+  align-content: center;
+  text-align: bottom;
+  padding-top: 21px;
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: center;
+}
+span,
+input {
+  vertical-align: top;
+}
+.multiselectlabel {
+  vertical-align: top;
+  margin-left: 10px;
+  position: relative;
+  bottom: 52px;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #717171;
+}
+
+.multiselect:focus {
+  outline: none;
+}
+.chip {
+  border-width: 0px;
+
+  width: 85px;
+  height: 20px;
+  background: inherit;
+  background-color: rgba(95, 84, 86, 1);
+  border: none;
+  border-radius: 25px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  top: -54px;
+  left: 10px;
+  margin-left: 2px;
+}
+.chipContainer {
+  display: flex;
+}
+.chipContent {
+  border-width: 0px;
+  width: auto;
+  height: 17px;
+  padding-right: 10px;
+  background: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "FiraSans-Bold", "Fira Sans Bold", "Fira Sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+.chipimg {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  top: -14px;
+
+  float: right;
+  left: -6px;
+}
+
+/*** Date picker ***/
+
+.datepick {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  /* Add custom arrow */
+  background-color: white;
+  height: 65px;
+  border-radius: 5px;
+  margin-left: 0px;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 13px;
+  align-content: center;
+  text-align: bottom;
+  padding-top: 5px;
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: center;
+  position: relative;
+  top: -25px;
+}
+
+.dateselectlabel {
+  position: relative;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #717171;
+  margin-left: 15px;
+}
+
+.dateInput {
+  border: none;
+  width: 100%;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+
+  position: relative;
+  float: left;
+}
+.dropdown-menu.show {
+  display: block;
+  left: 0px !important;
+}
+.btn-link {
+  font-weight: 400;
+  color: red !important;
+  text-decoration: none;
+}
+.bg-primary {
+  background-color: #ff00bf !important;
+}
+
+/***input **/
+.inputpick {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  /* Add custom arrow */
+  border: 1px solid rgb(169, 169, 169) !important;
+  background-color: white;
+
+  border-radius: 5px;
+  margin-left: 0px;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 15px;
+  align-content: center;
+  text-align: bottom;
+  padding-top: 6px;
+  background-repeat: no-repeat;
+  background-position-x: 97%;
+  background-position-y: center;
+  position: relative;
+  top: -25px;
+}
+.textInput {
+  border: none;
+  width: 100%;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.textInputborderless {
+  border: none;
+  width: 180px;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  left: -10px;
+}
+.selectinputlabel {
+  margin-left: 10px;
+  position: relative;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #717171;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: "FiraSans-ExtraLightItalic", "Fira Sans ExtraLight Italic",
+    "Fira Sans";
+  font-weight: 200;
+  font-style: italic;
+  font-size: 13px;
+  color: #999999;
+  text-align: left;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "FiraSans-ExtraLightItalic", "Fira Sans ExtraLight Italic",
+    "Fira Sans";
+  font-weight: 200;
+  font-style: italic;
+  font-size: 16px;
+  color: #999999;
+  text-align: left;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: "FiraSans-ExtraLightItalic", "Fira Sans ExtraLight Italic",
+    "Fira Sans";
+  font-weight: 200;
+  font-style: italic;
+  font-size: 16px;
+  color: #999999;
+  text-align: left;
+}
+
+.defaultOption {
+  font-family: "FiraSans-ExtraLightItalic", "Fira Sans ExtraLight Italic",
+    "Fira Sans" !important;
+  font-weight: 200 !important;
+  font-style: italic !important;
+  font-size: 16px !important;
+  color: #999999 !important;
+  text-align: left !important;
+}
+
+.countrySelector {
+  width: 100%;
+  height: 78px;
+  position: relative;
+  margin-top: 10px;
+}
+.travelDate {
+  margin-top: 20px;
+}
+.travelAges {
+  margin-top: 10px;
+}
+.datePickerLogo {
+  float: right;
+}
+.col2 {
+  margin-left: 10px;
+}
+
+/*** Tablet **/

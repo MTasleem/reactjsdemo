@@ -1,0 +1,99 @@
+https://teamtreehouse.com/community/react-redirect-to-component
+https://reactnavigation.org/docs/en/getting-started.html
+https://github.com/auth0/node-jsonwebtoken
+https://jwt.io/
+https://reactjsexample.com/
+https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
+https://codepen.io/benhoyle/pen/vyygYN
+----------------------------------------------------------------------------------------------------------------------------
+Whats jsx:
+    
+
+Rules of Hooks
+    Only call hooks at the top level
+    Dont call Hook inside loop, conditions or nested function
+    
+    Only call hooks from react functions
+    call them from within react functional components AND NOT JUST ANY REGULAR javastcript
+
+Note: usestate may be anything like boolean, array, object , string
+
+automatic merge not posible in functional components for 'usestate'
+when we use array or object we need to implements spread operator to keep existing state
+
+
+componentDidMound called only once like ngchanges in angular8
+
+useState : state
+useEffect : side effect
+useContext : context API
+useReducer : reducer
+
+
+useEffect:
+
+  useEffect(() => {
+      effect <---code
+      return () => {
+          cleanup <---remove listener
+      };
+  }, [input]) <--- dependancy [] means only one time, provide parameter to indicate on that basis it will changes render
+
+
+    the effect hooks lets you perform side effects in functional components
+    Ites a close replacement for componentDidMount, componentDidUpdate, and componentWillUnmount
+
+    react can reduce code by using use effect 
+    useEffect always run for every rundered
+
+    useEffect placed inside component
+    functional component is best for useEffect
+
+    second parameter for useEffect is used to tell react there is no dependancy like prop and state changes 
+
+    after unmounted component from dom it will return error and also return console.log
+    so to remove it we use cleanup code in useEffect in functional component remove add listener 
+
+
+    
+
+
+useContext 
+    to provide a single information into nested component at that time we use context
+    like
+                                        Component A (username) as a prop
+                                            |
+    component B (username)          component C (username)          component E (username)             
+                                    component D (username)          component F (username)
+                                                                    component G (username)
+
+    At this position we implements react context
+
+
+useReducer:
+    useReducer is used to state management
+    this is alternative ways of state management
+
+
+reduce:
+    accumulator hold last return value
+    [0, 1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => {
+        console.table(`${accumulator} ${currentValue}`)    
+    return accumulator + currentValue
+    })
+
+    0 1
+    1 2
+    3 3
+    6 4
+    10
+
+in reactjs useReducer:
+    useReducer is a hook let you perform some task like state and action
+    action meams do something within component like increment or decrement or reset
+    
+ccr create src/components/footer
+
+
+
+

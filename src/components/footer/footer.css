@@ -1,0 +1,255 @@
+@media only screen and (max-width: 600px) {
+  .footerDiv {
+    width: 100%;
+
+    background: inherit;
+    background-color: rgba(51, 51, 51, 1);
+    border: none;
+    border-radius: 0px;
+  }
+  .footerColumn {
+    border-bottom: 0.5px solid #636060 !important;
+    padding-bottom: 30px;
+  }
+  .socialIconMob {
+    display: flex !important;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .socialLogo {
+    text-align: center !important;
+  }
+  .social {
+    margin-top: 98px !important;
+    float: none !important;
+  }
+  .socialLogo {
+    display: none !important;
+  }
+  .terms {
+    min-width: 368px !important;
+    text-align: center !important;
+    position: relative !important;
+    margin: auto !important;
+  }
+  .copyright {
+    margin-top: 0px !important;
+    min-width: 230px !important;
+    margin: auto !important;
+  }
+  .companyLogo {
+    text-align: center !important;
+  }
+}
+
+/*** iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .mobNumber {
+    margin-left: 28px !important;
+  }
+  .mobIcon {
+    width: 0px !important;
+  }
+}
+.footer {
+  width: 100%;
+  background-color: rgba(51, 51, 51, 1);
+}
+.footerDiv {
+  border-width: 0px;
+
+  width: 100%;
+  padding-top: 10px;
+
+  background: inherit;
+  background-color: rgba(51, 51, 51, 1);
+  border: none;
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.Content {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+  line-height: 19px;
+}
+.mobile {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 32px;
+  color: #f2f3f0;
+  position: relative;
+  top: 0%;
+  margin-top: -15px;
+}
+.mobNumber {
+  margin-left: 60px;
+}
+.email {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+  line-height: 19px;
+  position: relative;
+  top: 0%;
+  margin-top: -13px;
+}
+.locateTitle {
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+  line-height: 25px;
+  margin-left: 60px;
+}
+.address {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  text-decoration: none;
+  margin-left: 60px;
+}
+.footerlogo {
+  border-top: 0.5px solid #636060;
+  height: 100px;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+}
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+.social {
+  float: right;
+  margin-top: 30px;
+}
+.terms {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  color: #f2f3f0;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 10px !important;
+  padding-bottom: 10px;
+  height: auto;
+}
+.termsContent {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: right !important;
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  color: #f2f3f0;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 10px !important;
+}
+.copyContent {
+  margin-left: 20px;
+}
+.mobIcon {
+  position: absolute;
+  align-self: center;
+  padding: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -3px;
+}
+.messageIcon {
+  position: absolute;
+  align-self: center;
+  padding: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0px;
+}
+.footerHeading {
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+}
+.footerContent {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+  line-height: 40px;
+
+  margin-top: 20px;
+}
+.footerAddress {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  color: #f2f3f0;
+  line-height: 25px;
+  max-width: 229px !important;
+  margin-top: 20px;
+}
+.footerColumn {
+  text-align: left;
+  margin-top: 50px;
+  min-width: 470px;
+}
+.footerColumn3 {
+  text-align: left;
+  margin-top: 50px;
+}
+.mobNum {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200 !important;
+  font-style: normal;
+  font-size: 34px !important;
+  color: #f2f3f0;
+}
+.addressHeading {
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.footerLogos {
+  border-top: 0.5px solid #636060;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.companyLogo {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.socialLogo {
+  text-align: right;
+}
+.socialLinks {
+  margin-right: 30px;
+}
+.footerBottom {
+  background-color: rgba(177, 6, 30, 1);
+}
+.socialIconMob {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}

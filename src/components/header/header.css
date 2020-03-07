@@ -1,0 +1,343 @@
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .toggleBar {
+    display: block !important;
+    float: right;
+    margin-right: 18px !important;
+    position: relative !important;
+    top: 26px !important;
+  }
+  .headerNavContent {
+    display: none !important;
+  }
+  .headerNav {
+    display: none;
+  }
+  .headerText {
+    display: none !important;
+  }
+  .topNav {
+    border-bottom: 2px solid rgba(177, 6, 30, 1);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .topNav {
+    border-bottom: 2px solid rgba(177, 6, 30, 1);
+  }
+  .headerNav {
+    display: none;
+  }
+  .headerNavContent {
+    display: none !important;
+  }
+
+  .headerText {
+    display: none !important;
+  }
+  .midDiv {
+    display: none !important;
+  }
+  .toggleBar {
+    display: block !important;
+    float: right;
+    margin-right: 18px !important;
+    position: relative !important;
+    top: -30px !important;
+  }
+  .headerDIV {
+    display: none !important;
+  }
+}
+
+/*** iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .toggleBar {
+    display: block !important;
+    float: right;
+    margin-right: 18px !important;
+    position: relative !important;
+    top: 26px !important;
+  }
+  .headerNav {
+    display: none;
+  }
+  .headerText {
+    display: none !important;
+  }
+}
+/*** Small and medium tabs */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .toggleBar {
+    display: block !important;
+    float: right;
+    margin-right: 18px !important;
+    position: relative !important;
+    top: 26px !important;
+  }
+  .headerNav {
+    display: none;
+  }
+  .headerText {
+    display: none !important;
+  }
+}
+.toggleBar {
+  display: none;
+}
+.headerWhite {
+  height: 62px;
+  width: 100%;
+}
+.headerNav {
+  background-color: rgba(177, 6, 30, 1);
+
+  height: 70px;
+}
+.headerContent {
+  display: flex;
+  width: 83%;
+  position: relative;
+  margin: auto;
+}
+
+.headerNavContent {
+  position: relative;
+}
+.headerNav a {
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  color: #ffffff;
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navContainer {
+  margin-top: 10px;
+
+  position: relative;
+  margin: auto;
+}
+
+.headerText {
+  position: relative;
+  align-self: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  text-align: right;
+  float: right;
+  margin-left: auto;
+  display: table;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+.headerTag {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.navButton {
+  background-color: #ffffff;
+  border: none;
+  height: 37px;
+  width: 160px;
+  margin-top: 20px;
+
+  color: rgba(177, 6, 30, 1);
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.navLoginButton {
+  background-color: rgba(177, 6, 30, 1);
+  border: none;
+  height: 37px;
+  width: 160px;
+  margin-top: 20px;
+
+  color: #ffffff;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.logo {
+  width: 134px;
+  height: 45px;
+
+  position: relative;
+  margin-top: 20px;
+}
+.logoDiv {
+  padding: 0px !important;
+}
+
+.searchIcon {
+  position: relative;
+  right: 20px;
+  top: 10px;
+}
+.search {
+  display: flex;
+}
+
+.searchBox {
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  padding-top: 23px;
+  border: none;
+  border-bottom: 0.5px solid rgb(255, 255, 255, 0.7);
+  color: #ffffff;
+  background-color: rgba(177, 6, 30, 1);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.searchBox::placeholder {
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+.navHeading {
+  border-width: 0px;
+  margin-right: 30px;
+
+  background: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul {
+  margin-top: 23px;
+  padding-left: 0px !important;
+}
+
+/** Toggle Bar **/
+
+.card {
+  width: 201px !important;
+  top: 42px !important;
+  left: -176px !important;
+  position: absolute !important;
+  z-index: 999 !important;
+  text-align: left;
+}
+li {
+  list-style: none;
+  color: rgba(177, 6, 30, 1);
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgba(177, 6, 30, 1); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s !important; /* 0.5 second transition effect to slide in the sidenav */
+  float: right;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.toggleImage {
+  float: right;
+}
+.mobnavLoginButton {
+  background-color: #ffffff;
+  border: none;
+  height: 37px;
+  width: 160px;
+  margin-top: 20px;
+
+  color: rgba(177, 6, 30, 1);
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}

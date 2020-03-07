@@ -1,0 +1,380 @@
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .bannerModal {
+    display: block !important;
+  }
+  .banner {
+    display: none !important;
+  }
+  .thingsContent {
+    font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans" !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 36px !important;
+    text-align: center !important;
+    line-height: 40px !important;
+    max-width: 180px !important;
+    position: relative !important;
+    margin: auto !important;
+    margin-top: 60px !important;
+  }
+}
+/***MOBILE   */
+
+@media only screen and (max-width: 600px) {
+  .breaker {
+    display: none;
+  }
+  .bannerModal {
+    display: block !important;
+  }
+  .owl-dots {
+    margin-top: 0px !important;
+  }
+  .banner {
+    display: none !important;
+  }
+
+  .bannerCard {
+    position: absolute !important;
+    top: 0% !important;
+    border: 0 !important;
+    margin-top: 53px !important;
+    width: 550px !important;
+    left: 0% !important;
+  }
+
+  .line {
+    width: 60px !important;
+    height: 2px !important;
+    margin: auto;
+    position: relative;
+    top: 42px;
+  }
+  .coverImage {
+    /* background-image: url("../../assets/images/01-home/u1.jpg"); */
+    background-size: cover;
+    /*height: 100.5vh !important;*/
+    min-width: 100%;
+  }
+  .homeQuote {
+    font-family: "FiraSans-Bold", "Fira Sans Bold", "Fira Sans";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px !important;
+    color: #ffffff;
+    text-align: center !important;
+    line-height: 40px !important;
+
+    margin-bottom: 30px !important;
+  }
+  .subQuote {
+    margin: auto;
+    position: relative;
+    font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans" !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-size: 21px !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    line-height: 26px !important;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .whySectionTitle {
+    width: 243px !important;
+    height: 120px !important;
+    display: flex !important;
+    font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans" !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 36px !important;
+    text-align: center !important;
+    line-height: 40px !important;
+  }
+
+  .cover {
+    height: auto !important;
+    background-color: rgba(47, 56, 57, 0.298039215686275);
+  }
+  .thingsHeading {
+    width: auto !important;
+    display: flex;
+    font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans" !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 36px !important;
+    text-align: center !important;
+    line-height: 40px !important;
+  }
+  .thingsSubHeading {
+    width: 300px !important;
+    height: auto !important;
+    margin: auto !important;
+    position: relative !important;
+    font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans" !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-size: 21px !important;
+    text-align: center !important;
+  }
+  .placesRow {
+    margin-top: 16% !important;
+    /* left: 6% !important; */
+    width: 100% !important;
+  }
+  .thingsContent {
+    font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans" !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 36px !important;
+    text-align: center !important;
+    line-height: 40px !important;
+    max-width: 180px !important;
+    position: relative !important;
+    margin: auto !important;
+    margin-top: 60px !important;
+  }
+}
+
+/*** iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .coverImage {
+    height: auto !important;
+  }
+  .cover {
+    height: auto !important;
+  }
+  .whySectionTitle {
+    width: 40% !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .whySectionTitle {
+    width: 80% !important;
+  }
+}
+/***DESKTOP   */
+.whySectionCard {
+  margin-bottom: 20px;
+}
+.whySectionCards {
+  margin-top: 100px;
+}
+.coverImage {
+  /* background-image: url("../../assets/images/01-home/u1.jpg"); */
+  height: auto;
+  background-size: cover;
+}
+.cover {
+  /*height:100.5vh;*/
+  background-color: rgba(47, 56, 57, 0.298039215686275);
+}
+.searchBox {
+  border: none;
+  border-bottom: 2px solid red;
+}
+.bannerCard {
+  margin-top: 26px !important;
+}
+.policiesServed {
+  border-width: 0;
+  width: 100%;
+  height: 209px;
+  background: inherit;
+  background-color: rgba(242, 243, 240, 1);
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  align-content: center;
+  text-align: center;
+}
+.policyCount {
+  position: relative;
+  top: 10%;
+  font-family: "FiraSans-SemiBold", "Fira Sans SemiBold", "Fira Sans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  color: #199854;
+}
+.policylabel {
+  position: relative;
+  top: 6%;
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-size: 28px;
+  text-decoration: none;
+  font-style: normal;
+}
+.policyfooterlabel {
+  font-family: "FiraSans-Italic", "Fira Sans Italic", "Fira Sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 11px;
+  color: #999999;
+  margin-top: 43px;
+}
+.whySection {
+  background-color: #ffffff;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 82px;
+}
+.whySectionTitle {
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 54px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #333333;
+  line-height: 63px;
+  max-width: 320px !important;
+  margin: auto;
+}
+
+.placesRow {
+  display: table;
+  /*width: 90%; !*Optional*!*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 0px; /*Optional*/
+  position: relative;
+  top: 5%;
+  /*margin: 0px auto;*/
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.placesColumn {
+  display: table-cell;
+  width: 100%;
+  /*height: 500px;*/
+  overflow: hidden;
+  /*border-radius: 20px;*/
+}
+
+.sliderDiv {
+  border-width: 0px;
+  width: 100%;
+  height: 434px;
+  background: inherit;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.thingsSection {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+.thingsHeading {
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 54px;
+  text-align: center;
+  line-height: 63px;
+  max-width: 500px;
+}
+.thingsSubHeading {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  line-height: 63px;
+  margin-bottom: 35px;
+}
+.homeQuote {
+  font-family: "FiraSans-Bold", "Fira Sans Bold", "Fira Sans" !important;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  max-width: 335px;
+  color: #ffffff;
+  width: fit-content;
+  line-height: 33px;
+  max-width: 332px !important;
+  text-align: left;
+}
+.subQuote {
+  font-family: "FiraSans-Light", "Fira Sans Light", "Fira Sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 18px;
+
+  color: #ffffff;
+  line-height: 33px;
+  width: fit-content;
+  border-bottom: 2px solid rgba(177, 6, 30, 1);
+}
+.line {
+  width: 78px;
+  height: 5px;
+  margin-top: -21px;
+}
+.homeText {
+  position: relative;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.owl-dots {
+  margin-top: -20px !important;
+}
+
+/*.owl-item{*/
+/*  width: 348px;*/
+/*}*/
+
+.owl-stage {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.thingsContent {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  font-size: 54px;
+  font-family: "FiraSans-Medium", "Fira Sans Medium", "Fira Sans";
+}
+.whySectionFooter {
+  width: 100%;
+}
+
+.impAster {
+  color: red;
+}
+
+.playButton {
+  width: 95px !important;
+  vertical-align: middle !important;
+  border-style: none;
+  position: absolute;
+  left: 35%;
+  top: 40% !important;
+}
+.banner {
+  margin-top: 30px;
+}
+.bannerModal {
+  display: none;
+}
+.anchorDiv {
+  position: absolute;
+  display: block;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
